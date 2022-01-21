@@ -19,8 +19,9 @@ header {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 40px 0 20px;
+  padding: 40px 25px 20px;
   margin-bottom: 100px;
+  background: #fff;
 }
 
 header .header__logo {
@@ -43,7 +44,7 @@ header .header__logo .logo__label img {
 
 header .header__logo .logo__label p {
   font-weight: 600;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 26px;
   letter-spacing: 0.216px;
   color: #1E3A60;
@@ -181,11 +182,6 @@ header .header__logo .logo__phone p {
   width: 26px;
   height: 26px;
   padding: 6px;
-}
-
-.content .content__input .input__checkbox input:checked {
-  background: none;
-  color: #35A2E7;
 }
 
 .content .content__input .input__checkbox p {

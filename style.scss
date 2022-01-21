@@ -19,8 +19,9 @@ header{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 40px 0 20px;
+    padding: 40px 25px 20px;
     margin-bottom: 100px;
+    background: #fff;
     .header__logo{
         width: 100%;
         display: flex;
@@ -36,7 +37,7 @@ header{
             }
             p{
                 font-weight: 600;
-                font-size: 21px;
+                font-size: 18px;
                 line-height: 26px;
 
                 letter-spacing: 0.216px;
@@ -176,11 +177,6 @@ header{
                 width: 26px;
                 height: 26px;
                 padding: 6px;
-                
-            }
-            input:checked{
-                background: none;
-                color: #35A2E7;
             }
             p{
                 font-weight: 500;
@@ -228,3 +224,4 @@ header{
         }
     }
 }
+
